@@ -1,0 +1,265 @@
+/* 
+font-family: 'Lobster', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+.text-logo {
+  font-family: 'Lobster', cursive;
+  font-size: 36rem;
+  font-weight: 400;
+}
+.text-socials {
+  font-family: 'Lobster', cursive;
+  font-size: 24rem;
+  font-weight: 400;
+}
+.text-h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24rem;
+  font-weight: 200;
+}
+.text-menu {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18rem;
+  font-weight: 200;
+}
+.text-main {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15rem;
+  font-weight: 300;
+}
+:root {
+  font-size: 1px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  transition: 0.2s ease-in;
+}
+a:active {
+  filter: grayscale(100%);
+}
+body {
+  background-attachment: fixed;
+  background-image: url(../img/bg_dollars-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Rubik', sans-serif;
+  font-size: 15rem;
+  font-weight: 300;
+  color: #ddd;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1020px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  max-width: 1020px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: inherit;
+  border-bottom: 1px dotted rgba(221, 221, 221, 0.25);
+  height: 72rem;
+  display: grid;
+  grid-template-columns: minmax(192rem, 5fr) minmax(96rem, 1fr) minmax(96rem, 1fr) minmax(96rem, 1fr);
+  align-items: center;
+}
+.header h1 {
+  font-size: 36rem;
+  font-weight: 400;
+  color: #b8860b;
+  font-family: 'Lobster', cursive;
+  text-shadow: 2rem 2rem 0 rgba(34, 34, 34, 0.5);
+}
+.header a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18rem;
+  font-weight: 200;
+  color: #ddd;
+  text-decoration: none;
+  text-shadow: 1rem 1rem 0 rgba(34, 34, 34, 0.5);
+  text-align: center;
+}
+.header a:hover {
+  color: #85bb65;
+}
+.main {
+  width: 100%;
+  max-width: 1020px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin: 0 auto;
+  padding-top: 72rem;
+  padding-bottom: 72rem;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fill, 1fr);
+}
+.main h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24rem;
+  font-weight: 200;
+  color: #ddd;
+  text-shadow: 1rem 1rem 0 #222;
+  padding-bottom: 12px;
+}
+.main .main__item-01 {
+  margin-top: 24px;
+}
+.main .main__item-01 .item-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15rem;
+  font-weight: 300;
+}
+.main .main__item-01 .item-image {
+  background-image: url('../img/photo-grayscale.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 160rem;
+  height: 160rem;
+  border-bottom: 2rem solid #b8860b;
+  float: left;
+  margin-right: 24px;
+  transition: 0.2s ease-in;
+}
+.main .main__item-01 .item-image:hover {
+  background-image: url('../img/photo-color.jpg');
+  box-shadow: 0 4rem 8rem #222;
+}
+.main .main__item-02 {
+  margin-top: 24px;
+}
+.main .main__item-02 .item-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15rem;
+  font-weight: 300;
+}
+.main .main__item-02 .item-text a {
+  color: #b8860b;
+}
+.main .main__item-02 .item-text a:hover {
+  color: #85bb65;
+}
+.main .main__item-03 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.main .main__item-03 .item-socials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(128rem, 1fr));
+  align-items: center;
+  justify-items: center;
+  grid-row-gap: 12rem;
+}
+.main .main__item-03 .item-socials a {
+  font-family: 'Lobster', cursive;
+  font-size: 24rem;
+  font-weight: 400;
+  color: #ddd;
+  text-decoration: none;
+  line-height: 64rem;
+}
+.main .main__item-03 .item-socials .ot__facebook {
+  background-image: url('../img/icon_facebook-alpha.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main .main__item-03 .item-socials .ot__facebook:hover {
+  color: transparent;
+  background-image: url('../img/icon_facebook.svg');
+}
+.main .main__item-03 .item-socials .ot__skype {
+  background-image: url('../img/icon_skype-alpha.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main .main__item-03 .item-socials .ot__skype:hover {
+  color: transparent;
+  background-image: url('../img/icon_skype.svg');
+}
+.main .main__item-03 .item-socials .ot__vkontakte {
+  background-image: url('../img/icon_vkontakte-alpha.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main .main__item-03 .item-socials .ot__vkontakte:hover {
+  color: transparent;
+  background-image: url('../img/icon_vkontakte.svg');
+}
+.main .main__item-03 .item-socials .ot__whatsapp {
+  background-image: url('../img/icon_whatsapp-alpha.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main .main__item-03 .item-socials .ot__whatsapp:hover {
+  color: transparent;
+  background-image: url('../img/icon_whatsapp.svg');
+}
+.main .main__item-03 .item-socials .ot__youtube {
+  background-image: url('../img/icon_youtube-alpha.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main .main__item-03 .item-socials .ot__youtube:hover {
+  color: transparent;
+  background-image: url('../img/icon_youtube.svg');
+}
+.main .main__item-03 .item-referral {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15rem;
+  font-weight: 300;
+  padding: 24px 0;
+  text-align: center;
+}
+.main .main__item-03 .item-referral a {
+  color: #b8860b;
+}
+.main .main__item-03 .item-referral a:hover {
+  color: #85bb65;
+}
+.footer {
+  width: 100%;
+  max-width: 1020px;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin: 0 auto;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-top: 1px dotted rgba(221, 221, 221, 0.25);
+  height: 72rem;
+  display: grid;
+  grid-template-columns: minmax(192px, 1fr);
+  align-items: center;
+}
+.footer p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15rem;
+  font-weight: 300;
+  color: rgba(221, 221, 221, 0.5);
+  text-shadow: 1rem 1rem 0 rgba(34, 34, 34, 0.5);
+}
